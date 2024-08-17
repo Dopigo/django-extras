@@ -1,7 +1,7 @@
 # -*- encoding:utf8 -*-
 from django.db import models
 from django.conf import settings
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 # Compatibility with django 1.5 custom user models
 USER_MODEL_NAME = getattr(settings, "AUTH_USER_MODEL", 'auth.User')

@@ -7,7 +7,7 @@ import six
 from django.core import exceptions
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django_extras import forms
 from django_extras.core import validators
 from django_extras.core.types import Money
